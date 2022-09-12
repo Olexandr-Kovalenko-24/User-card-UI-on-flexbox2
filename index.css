@@ -1,0 +1,70 @@
+.wrapper {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(191, 211, 219);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 350px;
+    height: 350px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 16px;
+}
+
+.photo {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: top;
+    margin-top: 50%;
+}
+
+.person-info {
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.about {
+    line-height: 1.5em;
+}
+
+.account-info {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.number {
+    font-size: 18px;
+    color: darkmagenta;
+}
+
+.button {
+    font-size: 20px;
+    margin-bottom: 5%;
+}
+
+.but1 {
+    background-color: blueviolet;
+    height: 30px;
+    width: 90px;
+    border-radius: 5px;
+}
+
+.but2 {
+    background-color: palevioletred;
+    height: 30px;
+    width: 90px;
+    border-radius: 5px;
+}
+.p {
+    flex-basis: 80px;
+}
